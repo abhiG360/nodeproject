@@ -41,7 +41,7 @@ $ npm run dev
 
 The server will start running on http://localhost:3000
 
-#Usage
+##usage
 The API provides endpoints to manage user data and career services. Here are some example endpoints:
 
 GET /worko/user: Get a list of all users.
