@@ -41,7 +41,7 @@ $ npm run dev
 
 The server will start running on http://localhost:3000
 
-Usage
+##Usage
 The API provides endpoints to manage user data and career services. Here are some example endpoints:
 
 GET /worko/user: Get a list of all users.
@@ -52,7 +52,7 @@ PATCH /worko/user/:userId: Update specific user details.
 DELETE /worko/user/:userId: Soft delete a user.
 Ensure you have valid JWT token for authenticated routes.
 
-API Documentation
+##API Documentation
 /worko/user
 GET /worko/user
 Retrieve a list of all users.
@@ -108,22 +108,22 @@ Request Parameters:
 
 userId: ID of the user to delete.
 
-Technologies Used
+##Technologies Used
 Node.js
 Express
 MongoDB (Mongoose)
 Joi for validation
 JWT for authentication
 dotenv for environment variables
-Testing
+##Testing
 Unit tests are implemented using Jest and Supertest to achieve at least 60% code coverage.
 
 Run tests:
 $ npm test
 
-Contributing
+##Contributing
 Contributions are welcome! Fork the repository and submit a pull request with your enhancements.
 
 
-License
+##License
 This project is licensed under the MIT License - see the LICENSE file for details.
