@@ -22,7 +22,7 @@ This project implements a backend API for Worko.ai, facilitating job seekers to 
 1. Clone the repository:
 
    ```bash
-   $ git clone <repository_url>
+   $ git clone https://github.com/abhiG360/nodeproject.git
    $ cd worko-backend
 
 Install dependencies:
